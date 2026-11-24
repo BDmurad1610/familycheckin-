@@ -6,7 +6,7 @@ export function createClient() {
 
   return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_KEY!, // এখানে ANON_KEY নেই, শুধু KEY
+    process.env.NEXT_PUBLIC_SUPABASE_KEY!, //
     {
       cookies: {
         get(name: string) {
